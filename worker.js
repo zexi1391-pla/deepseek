@@ -39,7 +39,7 @@ const html = `
     <h1>💬 DeepSeek Chat</h1>
     <button id="modeToggle" onclick="toggleMode()" title="点击切换天使/恶魔模式">😇</button>
     <select id="modelSelect">
-        <option value="meta/llama3-70b-instruct">llama3.3-70b</option>
+        <option value="z-ai/glm-5.2">z-ai/glm-5.2</option>
         <option value="google/gemma-2-27b-it">glm-5.1</option>
         <option value="mistralai/mixtral-8x22b-instruct-v0.1">gpt-oss-120b</option>
     </select>
