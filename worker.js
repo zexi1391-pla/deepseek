@@ -181,7 +181,6 @@ function getTotalWordCount(msgs) {
 function updateSummaryStatus() {
   const count = getTotalWordCount(messages);
   const last = loadLastCount();
-  // 注意：这里必须使用反引号`，不是单引号
   summaryStatus.textContent = `📝 ${count}字 (已总结 ${last}字)`;
 }
 function updateSummaryDisplay() {
